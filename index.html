@@ -29,6 +29,7 @@
         </a-cursor>
       </a-camera>
 
+      <!--light particles-->
       <a-entity position="-12 1.25 -5"  particle-system="preset: dust; particleCount: 1000"></a-entity>
 
       <a-sky
@@ -36,7 +37,7 @@
         material = "src: #space">
       </a-sky>
 
-      <a-plane 
+      <!-- <a-plane 
         position="2 5.25 -5"
         width="5"
         height="0.5"
@@ -44,7 +45,7 @@
       </a-plane>
       <a-entity position="2 5.25 -5" 
       text="width: 7; color: white; align: center; value: Click on one of the worlds!;">
-      </a-entity>
+      </a-entity> -->
 
       <!--position: left right, up down, further closer-->   
       
@@ -69,14 +70,6 @@
       <a-light light="type: ambient; color: #FFFFFF; intensity: 0.5;"  
       position="-30 1.25 -5">
       </a-light>
-
-      <!-- middle -->
-      <!-- <a-light light="type: point; distance: 10; color: #FFFFFF; intensity: 1.5 castShadow: true"  
-      position="-13 1.25 5">
-      </a-light>
-      <a-light light="type: point; distance: 10; color: #FFFFFF; intensity: 1.5 castShadow: true"  
-      position="-10 1.25 -15">
-      </a-light> -->
       
       <a-sphere 
         position="-7 1.25 -5" 
@@ -156,6 +149,7 @@
           loop: true"
         shadow>
       </a-sphere>
+
       <!--buitenste cirkel-->
       <a-torus
           id="saturnRing_1"
