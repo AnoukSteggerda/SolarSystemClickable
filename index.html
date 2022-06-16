@@ -119,6 +119,7 @@
       </a-sphere>
 
       <a-sphere 
+        id="marsPlanet"
         position="-1 1.25 -5" 
         radius=".25" 
         material = "src: #mars;"
@@ -224,6 +225,12 @@
     .querySelector("#uranusPlanet")
     .addEventListener("click", e => {
       location.href = "Kisha/index.html";
+    });
+
+    document
+    .querySelector("#marsPlanet")
+    .addEventListener("click", e => {
+      location.href = "Houwin_mars/mars.html";
     });
   </script>
 </html>
