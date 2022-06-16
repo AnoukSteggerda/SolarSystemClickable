@@ -28,7 +28,6 @@
       <a-camera position="3 1 2" id="myCamera">
         <a-cursor intersection-spawn="Event: click; mixin: voxel;">
         </a-cursor>
-        
       </a-camera>
 
       <!-- <a-entity oculus-touch-controls="hand: left"></a-entity>
@@ -43,8 +42,8 @@
       <a-cursor></a-cursor>
       </a-entity> -->
 
-      <a-entity laser-controls="hand: left" raycaster="showLine: true; objects: .click;"></a-entity>
-      <a-entity laser-controls="hand: right" raycaster="showLine: true; objects: .click;"></a-entity>
+      <a-entity laser-controls="hand: left" raycaster="showLine: true; objects: .clickable;"></a-entity>
+      <a-entity laser-controls="hand: right" raycaster="showLine: true; objects: .clickable;"></a-entity>
 
       <!--light particles-->
       <a-entity position="-12 1.25 -5"  particle-system="preset: dust; particleCount: 1000"></a-entity>
