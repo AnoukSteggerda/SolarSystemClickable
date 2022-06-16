@@ -33,8 +33,11 @@
       <!-- <a-entity oculus-touch-controls="hand: left"></a-entity>
       <a-entity oculus-touch-controls="hand: right"></a-entity> -->
 
-      <a-entity oculus-touch-controls="hand: left" thumbstick-logging></a-entity>
-      <a-entity oculus-touch-controls="hand: right" thumbstick-logging></a-entity>
+      <!-- <a-entity oculus-touch-controls="hand: left" thumbstick-logging></a-entity>
+      <a-entity oculus-touch-controls="hand: right" thumbstick-logging></a-entity> -->
+
+      <a-entity id="leftHand" hand-controls="hand: left; handModelStyle: lowPoly; color: #ffcccc"></a-entity>
+      <a-entity id="rightHand" hand-controls="hand: right; handModelStyle: lowPoly; color: #ffcccc"></a-entity>
 
       <!--light particles-->
       <a-entity position="-12 1.25 -5"  particle-system="preset: dust; particleCount: 1000"></a-entity>
