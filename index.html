@@ -30,6 +30,9 @@
         </a-cursor>
       </a-camera>
 
+      <!-- <a-entity oculus-touch-controls="hand: left"></a-entity>
+      <a-entity oculus-touch-controls="hand: right"></a-entity> -->
+
       <a-entity oculus-touch-controls="hand: left" thumbstick-logging></a-entity>
       <a-entity oculus-touch-controls="hand: right" thumbstick-logging></a-entity>
 
@@ -223,19 +226,19 @@
   <script>
     document
     .querySelector("#neptunePlanet")
-    .addEventListener("triggerdown", e => {
+    .addEventListener("click", e => {
       location.href = "Houwin_vissenspel/neptune.html";
     });
 
     document
     .querySelector("#uranusPlanet")
-    .addEventListener("triggerdown", e => {
+    .addEventListener("click", e => {
       location.href = "Kisha/index.html";
     });
 
     document
     .querySelector("#marsPlanet")
-    .addEventListener("triggerdown", e => {
+    .addEventListener("click", e => {
       location.href = "Houwin_mars/mars.html";
     });
   </script>
